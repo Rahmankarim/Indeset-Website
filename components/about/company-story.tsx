@@ -5,32 +5,32 @@ import { Card, CardContent } from "@/components/ui/card"
 
 const milestones = [
   {
-    year: "2019",
+    year: "2022",
     title: "Company Founded",
     description: "Started with a vision to transform businesses through innovative software solutions.",
   },
   {
-    year: "2020",
+    year: "2023",
     title: "First Major Client",
     description: "Delivered our first enterprise-level solution, establishing our reputation in the market.",
   },
   {
-    year: "2021",
+    year: "2024",
     title: "Team Expansion",
     description: "Grew our team to 25+ talented professionals across different specializations.",
   },
   {
-    year: "2022",
+    year: "2025",
     title: "AI Integration",
     description: "Launched our AI and machine learning practice, helping clients leverage cutting-edge technology.",
   },
   {
-    year: "2023",
-    title: "100+ Projects",
+    year: "2025",
+    title: "10+ Projects",
     description: "Reached the milestone of 100+ successful project deliveries across various industries.",
   },
   {
-    year: "2024",
+    year: "2025",
     title: "Global Expansion",
     description: "Expanded our services globally, serving clients across North America, Europe, and Asia.",
   },

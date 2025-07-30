@@ -10,83 +10,83 @@ import Link from "next/link"
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "AidFlow",
     description:
-      "A comprehensive e-commerce solution with advanced inventory management, payment processing, and analytics dashboard.",
-    image: "/placeholder.svg?height=300&width=500",
+      "AidFlow is an innovative web application designed to provide utility-driven solutions with a focus on efficiency and modern design. Built using React and Next.js, AidFlow leverages cutting-edge technologies to deliver a seamless user experience. With its modular architecture, responsive design, and optimized performance.",
+    image: "/projects/aidflow.png?height=300&width=500",
     category: "Web Application",
-    technologies: ["Next.js", "Node.js", "PostgreSQL", "Stripe", "AWS"],
+    technologies: ["Next.js", "Node.js", "MongoDB", "javascript"],
     client: "RetailCorp",
     duration: "4 months",
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://aid-flow.vercel.app/",
+    githubUrl: "https://github.com/Rahmankarim/AidFlow",
     featured: true,
   },
   {
     id: 2,
-    title: "Healthcare Management System",
+    title: "Goodwill Disability Movement",
     description:
-      "HIPAA-compliant healthcare platform for patient management, appointment scheduling, and telemedicine.",
-    image: "/placeholder.svg?height=300&width=500",
-    category: "SaaS Platform",
-    technologies: ["React", "Python", "Django", "PostgreSQL", "Docker"],
+      "Goodwill Disability Movement is an NDIS provider working with people with disability to make it easier for them to access services they require under the NDIS support service. We aim to create an environment of service provision which creates a smoother journey for all involved, including our staff and participants.",
+    image: "/projects/gwdm.png?height=300&width=500",
+    category: "Web Application",
+    technologies: ["React", "Typescript", "Nodejs", "MongoDB","Nextjs"],
     client: "MedTech Solutions",
     duration: "6 months",
-    liveUrl: "#",
+    liveUrl: "https://www.goodwillmovement.com.au/",
     githubUrl: "#",
     featured: true,
   },
   {
     id: 3,
-    title: "Mobile Banking App",
+    title: "ThoughtNest",
     description:
-      "Secure mobile banking application with biometric authentication and real-time transaction processing.",
-    image: "/placeholder.svg?height=300&width=500",
-    category: "Mobile App",
+      "ThoughtNest is a web application designed for managing and interacting with blog content. It features user authentication, allowing users to register, log in, and manage their profiles. The application supports CRUD operations on blog posts, enabling users to create, read, update, and delete their content",
+    image: "/projects/thoughtsNest.png?height=300&width=500",
+    category: "Web Application",
     technologies: ["React Native", "Node.js", "MongoDB", "Firebase"],
     client: "FinanceFirst Bank",
     duration: "5 months",
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://thought-nest.vercel.app/",
+    githubUrl: "https://github.com/Rahmankarim/ThoughtNest",
     featured: false,
   },
   {
     id: 4,
-    title: "AI-Powered Analytics Dashboard",
-    description: "Machine learning-powered analytics platform for business intelligence and predictive insights.",
-    image: "/placeholder.svg?height=300&width=500",
-    category: "AI/ML Solution",
+    title: "SmileCrafter",
+    description: "SmileCrafter is a captivating static website meticulously designed to spread joy and inspiration through creativity. Crafted with HTML, CSS, JavaScript and Bootstrap, SmileCrafter embodies the essence of imagination, innovation, and happiness.",
+    image: "/projects/smileCrafter.png?height=300&width=500",
+    category: "Web Application",
     technologies: ["Python", "TensorFlow", "React", "FastAPI", "AWS"],
     client: "DataInsights Inc",
     duration: "3 months",
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://rahmankarim.github.io/SmileCrafters/",
+    githubUrl: "https://github.com/Rahmankarim/SmileCrafters",
     featured: false,
   },
   {
     id: 5,
-    title: "Real Estate Platform",
-    description: "Comprehensive real estate platform with property listings, virtual tours, and CRM integration.",
-    image: "/placeholder.svg?height=300&width=500",
+    title: "HelpingHands",
+    description: "Helping Hand is a dynamic static website dedicated to extending support and empowering lives through acts of kindness and generosity. Developed using a combination of HTML, CSS, JavaScript, and Bootstrap framework",
+    image: "/projects/Helpng-Hand.png?height=300&width=500",
     category: "Web Application",
     technologies: ["Vue.js", "Laravel", "MySQL", "Cloudinary"],
     client: "PropertyPro",
     duration: "4 months",
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Rahmankarim/HelpingHands",
     featured: false,
   },
   {
     id: 6,
-    title: "Learning Management System",
-    description: "Educational platform with course management, video streaming, and progress tracking capabilities.",
-    image: "/placeholder.svg?height=300&width=500",
-    category: "EdTech Platform",
+    title: "TrendHive",
+    description: "TrendHive is a multitude of static pages dedicated to the latest trends, clothing collections, and style inspirations. Crafted with HTML, CSS, JavaScript, and Bootstrap (FrameWork)",
+    image: "/projects/TrendHive.png?height=300&width=500",
+    category: "Web Application",
     technologies: ["Next.js", "Node.js", "MongoDB", "AWS S3", "Stripe"],
     client: "EduTech Academy",
     duration: "5 months",
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://rahmankarim.github.io/TrendHive/",
+    githubUrl: "https://github.com/Rahmankarim/TrendHive",
     featured: false,
   },
 ]
@@ -190,7 +190,7 @@ export function PortfolioGrid() {
           ))}
         </div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
@@ -198,7 +198,7 @@ export function PortfolioGrid() {
           className="text-center mt-12"
         >
           <Button size="lg">View All Projects</Button>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   )
