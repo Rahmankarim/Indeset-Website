@@ -2,24 +2,24 @@
 
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
-import { Linkedin, Github, Twitter } from "lucide-react"
+import { Linkedin, Github, Twitter, Instagram } from "lucide-react"
 
 const team = [
   {
-    name: "Alex Johnson",
+    name: "Rahman Karim",
     role: "CEO & Co-Founder",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/rahman.jpeg?height=300&width=300",
     bio: "Visionary leader with 10+ years in software development and business strategy.",
     social: {
-      linkedin: "#",
-      github: "#",
-      twitter: "#",
+      linkedin: "https://www.linkedin.com/in/rahman-karim-73a59022a/",
+      github: "https://github.com/Rahmankarim",
+      instagram: "https://www.instagram.com/rahman_karim_1/",
     },
   },
   {
     name: "Sarah Chen",
     role: "CTO & Co-Founder",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/sarah.jpg?height=300&width=300",
     bio: "Technical expert specializing in scalable architecture and emerging technologies.",
     social: {
       linkedin: "#",
@@ -28,9 +28,9 @@ const team = [
     },
   },
   {
-    name: "Michael Rodriguez",
+    name: "Shahab Karim",
     role: "Head of Design",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/test.webp?height=300&width=300",
     bio: "Creative director with expertise in user experience and interface design.",
     social: {
       linkedin: "#",
@@ -120,7 +120,7 @@ export function TeamSection() {
                       <Github className="h-5 w-5" />
                     </a>
                     <a href={member.social.twitter} className="text-muted-foreground hover:text-primary">
-                      <Twitter className="h-5 w-5" />
+                      <Instagram className="h-5 w-5" />
                     </a>
                   </div>
                 </CardContent>

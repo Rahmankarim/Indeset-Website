@@ -87,17 +87,17 @@ export function CompanyCulture() {
           <h3 className="text-3xl font-bold mb-8">Our Workspace</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <img
-              src="/placeholder.svg?height=300&width=400"
+              src="/interior/interior1.jpg?height=300&width=400"
               alt="Office Space"
               className="rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
             />
             <img
-              src="/placeholder.svg?height=300&width=400"
+              src="/interior/interior2.webp?height=300&width=400"
               alt="Collaboration Room"
               className="rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
             />
             <img
-              src="/placeholder.svg?height=300&width=400"
+              src="/interior/interior3.jpg?height=300&width=400"
               alt="Office Lounge"
               className="rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
             />
